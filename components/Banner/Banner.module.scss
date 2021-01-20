@@ -1,0 +1,70 @@
+@import '../../assets/styles/index.scss';
+
+._main {
+  height:calc(100vh - 4rem);
+  display: flex;
+  justify-content: center;
+  background-color: $black;
+}
+
+._content {
+  width: 85%;
+  display: inline-flex;
+}
+
+._leftSide {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+._rightSide {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+._imageParent {
+  width: 90%;
+  margin-bottom: 3rem;
+  display: block;
+  margin-left: auto;
+}
+
+._leftText {
+  color: $white;
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 1.8rem;
+}
+
+._emailInput {
+  background-color: $lightGray;
+  border: none;
+  width: 45%;
+  border-radius: 0.625rem;
+  padding: 1rem; 
+
+  &::placeholder {
+    color: $white;
+    font-family: $muli;
+  }
+}
+
+._emailBtn {
+  background-color: $lightWhite;
+  border: none;
+  padding: 1rem 1.5rem 1rem 1.5rem; 
+  font-family: $muli;
+  border-radius: 0.625rem;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  font-weight: 600;
+}
+
+._separation {
+  margin-bottom: 3rem;
+}

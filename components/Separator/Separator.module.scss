@@ -1,0 +1,13 @@
+@import '../../assets/styles/index.scss';
+
+._main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+}
+
+._title {
+  font-size: 3rem;
+  font-weight: 800;
+}

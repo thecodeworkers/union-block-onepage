@@ -1,0 +1,63 @@
+@import '../../assets/styles/index.scss';
+
+._principal {
+  background-color: $black;
+  padding: 2rem 0px 2rem 0px;
+}
+
+._items {
+  width: 85%;
+  margin: auto;
+  display: flex;
+}
+
+._sectionOne {
+  width: 20%;
+
+  & h3 {
+    color: $white;
+    font-family: $muli;
+    margin-bottom: 1rem;
+  }
+
+  & span {
+    color: $white;
+    font-family: $muli;
+    margin-bottom: 0px;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+._sectionThree {
+  width: 25%;
+  display: block;
+  margin-top: auto;
+  padding-left: 4rem;
+
+  & span {
+    color: $white;
+    font-family: $muli;
+    margin-bottom: 0px;
+    font-size: 0.9rem;
+  }
+}
+
+._socialMedia {
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+._iconsParent {
+  display: flex;
+}
+
+._icon {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 1.5rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
