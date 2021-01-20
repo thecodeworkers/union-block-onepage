@@ -10,12 +10,14 @@
   font-weight: 600;
   margin-left: 1rem;
   cursor: pointer;
+  transition: all 0.6s;
 }
 
 ._main {
   background-color: $black;
   height: 4rem;
   width: 100%;
+  padding-top: 2rem;
 }
 
 ._content {
@@ -34,10 +36,22 @@
 
 ._registerBtn {
   @include button($lightBlue, $white);
+
+  &:hover {
+    background-color: $lightWhite;
+    color: $black;
+    transition: all 0.6s;
+  }
 }
 
 ._signUpBtn {
   @include button($lightWhite, $black); 
+
+  &:hover {
+    background-color: $lightBlue;
+    color: $lightWhite;
+    transition: all 0.6s;
+  }
 }
 
 ._contactBtn {
@@ -46,5 +60,12 @@
   border: none;
   font-family: $muli;
   font-weight: 600;
+  transition: all 0.6s;
+  cursor: pointer;
+
+  &:hover {
+    color: $lightBlue;
+    transition: all 0.6s;
+  }
 }
 

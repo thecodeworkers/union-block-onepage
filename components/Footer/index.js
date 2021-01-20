@@ -2,8 +2,9 @@ import styles from './Footer.module.scss';
 import { Twitter, Instagram, Facebook } from '../../assets/images/Svg';
 
 const Footer = () => {
+
   return (
-    <footer className={styles._principal}>
+    <footer className={styles._principal} >
       <div className={styles._items}>
         <div className={styles._sectionOne}>
           <h3>CONTACT</h3>

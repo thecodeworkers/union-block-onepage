@@ -1,5 +1,9 @@
 @import '../assets/styles/index.scss';
 
+*:focus {
+  outline: none;
+}
+
 html,
 body {
   padding: 0;

@@ -2,44 +2,44 @@
 const Logo = () => (
   <svg id="Grupo_7" data-name="Grupo 7" width="100%" height="100%" viewBox="0 0 235.789 33.345">
   <defs>
-    <clipPath id="clip-path">
+    <clipPath id="clipPath">
       <path id="Trazado_1" data-name="Trazado 1" d="M610.669,6.56l-4.16-4.16L590.2,18.676l16.309,16.276,4.16-4.16L598.553,18.676Z" transform="translate(-590.2 -2.4)"/>
     </clipPath>
     <linearGradient id="linear-gradient" x1="-44.405" y1="-6.248" x2="-44.382" y2="-6.248" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#1d2140"/>
-      <stop offset="0.001" stop-color="#1d2140"/>
-      <stop offset="1" stop-color="#1172ba"/>
+      <stop offset="0" stopColor="#1d2140"/>
+      <stop offset="0.001" stopColor="#1d2140"/>
+      <stop offset="1" stopColor="#1172ba"/>
     </linearGradient>
-    <clipPath id="clip-path-2">
+    <clipPath id="clipPath-2">
       <path id="Trazado_2" data-name="Trazado 2" d="M623.556,27.116l8.089-8.089L627.616,15,615.5,27.116l12.116,12.116,4.028-4.028Z" transform="translate(-615.5 -15)"/>
     </clipPath>
     <linearGradient id="linear-gradient-2" x1="-56.623" y1="-8.729" x2="-56.594" y2="-8.729" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#6ac5a8"/>
-      <stop offset="0.001" stop-color="#6ac5a8"/>
-      <stop offset="1" stop-color="#34a3dc"/>
+      <stop offset="0" stopColor="#6ac5a8"/>
+      <stop offset="0.001" stopColor="#6ac5a8"/>
+      <stop offset="1" stopColor="#34a3dc"/>
     </linearGradient>
-    <clipPath id="clip-path-3">
+    <clipPath id="clipPath-3">
       <path id="Trazado_3" data-name="Trazado 3" d="M660.388,6.428,656.36,2.4,652.2,6.56l4.028,4.028,8.089,8.089-8.089,8.089L652.2,30.792l4.16,4.16,4.028-4.028,12.281-12.248Z" transform="translate(-652.2 -2.4)"/>
     </clipPath>
     <linearGradient id="linear-gradient-3" x1="-45.398" y1="-6.248" x2="-45.375" y2="-6.248" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f47d61"/>
-      <stop offset="0.001" stop-color="#f47d61"/>
-      <stop offset="1" stop-color="#fbb37b"/>
+      <stop offset="0" stopColor="#f47d61"/>
+      <stop offset="0.001" stopColor="#f47d61"/>
+      <stop offset="1" stopColor="#fbb37b"/>
     </linearGradient>
   </defs>
   <g id="Grupo_2" data-name="Grupo 2" transform="translate(194.851 0.792)">
-    <g id="Grupo_1" data-name="Grupo 1" clip-path="url(#clip-path)">
+    <g id="Grupo_1" data-name="Grupo 1" clipPath="url(#clipPath)">
       <rect id="Rectángulo_3" data-name="Rectángulo 3" width="20.469" height="32.552" fill="url(#linear-gradient)"/>
     </g>
   </g>
   <g id="Grupo_4" data-name="Grupo 4" transform="translate(203.204 4.952)">
-    <g id="Grupo_3" data-name="Grupo 3" clip-path="url(#clip-path-2)">
+    <g id="Grupo_3" data-name="Grupo 3" clipPath="url(#clipPath-2)">
       <rect id="Rectángulo_4" data-name="Rectángulo 4" width="16.144" height="24.2" fill="url(#linear-gradient-2)"/>
     </g>
   </g>
   <rect id="Rectángulo_5" data-name="Rectángulo 5" width="11.423" height="11.423" transform="translate(211.266 17.073) rotate(-45)" fill="#fff"/>
   <g id="Grupo_6" data-name="Grupo 6" transform="translate(215.32 0.792)">
-    <g id="Grupo_5" data-name="Grupo 5" clip-path="url(#clip-path-3)">
+    <g id="Grupo_5" data-name="Grupo 5" clipPath="url(#clipPath-3)">
       <rect id="Rectángulo_6" data-name="Rectángulo 6" width="20.469" height="32.552" fill="url(#linear-gradient-3)"/>
     </g>
   </g>

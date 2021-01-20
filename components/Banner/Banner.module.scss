@@ -36,7 +36,7 @@
 ._leftText {
   color: $white;
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 3.4rem;
   margin-bottom: 1.8rem;
 }
 
@@ -46,11 +46,17 @@
   width: 45%;
   border-radius: 0.625rem;
   padding: 1rem; 
+  color: $white;
 
   &::placeholder {
     color: $white;
     font-family: $muli;
   }
+}
+
+._newsletterParent {
+  display: flex;
+  align-items: center;
 }
 
 ._emailBtn {
@@ -63,6 +69,13 @@
   cursor: pointer;
   margin-left: 0.5rem;
   font-weight: 600;
+  transition: all 0.6s;
+
+  &:hover {
+    background-color: $lightBlue;
+    color: $white;
+    transition: all 0.6s;
+  }
 }
 
 ._separation {

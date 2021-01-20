@@ -9,12 +9,11 @@ const Banner = () => {
           <div className={styles._separation}>
             <p className={styles._leftText} >Building the future through an avant-garde and creative ecosystem.</p>
 
-            <div className={styles.newsletterParent} >
+            <div className={styles._newsletterParent} >
               <input placeholder='Your email' className={styles._emailInput}></input>
               <button className={styles._emailBtn} > More info </button>
             </div>
           </div>
-
         </div>
 
         <div className={styles._rightSide}>

@@ -2,7 +2,15 @@ import './Navbar.module.scss';
 import styles from './Navbar.module.scss';
 import { Logo  } from '../../assets/images/Svg';
 
-const Navbar = () => {
+const Navbar = ({reference}) => {
+
+ const scrolling = (ref) => {
+    if(ref) {
+      const target = ref.current;
+      window.scrollTo({ top: target.offsetTop, behavior: 'smooth' });
+    } 
+  }
+  
   return (
     <div className={styles._main}> 
       <div className={styles._content}>
@@ -11,7 +19,7 @@ const Navbar = () => {
         </div>
 
         <div className={styles._buttonsParent}>
-            <button className={styles._contactBtn}>Contact</button>
+            <button className={styles._contactBtn} onClick={() => scrolling(reference)} >Contact</button>
             <button className={styles._signUpBtn}>Sign Up</button>
             <button className={styles._registerBtn}>Register</button>
         </div>
