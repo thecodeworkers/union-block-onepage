@@ -3,3 +3,7 @@ export { default as Grid } from './grid';
 export { default as Instagram } from './instagram';
 export { default as Twitter } from './twitter';
 export { default as Facebook } from './facebook';
+export { default as InnovationIcon } from './innovationIcon';
+export { default as TrustIcon } from './trustIcon';
+export { default as TechnologyIcon } from './technologyIcon';
+export { default as Toggle } from './toggle';

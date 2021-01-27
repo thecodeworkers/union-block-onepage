@@ -3,11 +3,36 @@
 ._main {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 15rem;
+  width: 100%;
+  padding: 4rem 0px 4rem 0px;
+  background-color: $black;
 }
 
 ._title {
   font-size: 3rem;
   font-weight: 800;
+}
+
+._iconParent {
+  width: 8rem;
+  height: 8rem;
+}
+
+._itemsParent {
+  width: 75%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+._featuredCard {
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+._title {
+  font-family: $muli;
+  color: $white;
 }

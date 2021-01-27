@@ -69,3 +69,18 @@
   }
 }
 
+._toggleParent {
+  width: 1.6rem;
+  height: 1.6rem;
+  display: none;
+}
+
+@include responsive(medium) {
+  ._toggleParent {
+    display: block;
+  }
+
+  ._buttonsParent {
+    display: none;
+  }
+}

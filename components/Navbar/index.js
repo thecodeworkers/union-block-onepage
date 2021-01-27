@@ -1,6 +1,6 @@
 import './Navbar.module.scss';
 import styles from './Navbar.module.scss';
-import { Logo  } from '../../assets/images/Svg';
+import { Logo, Toggle } from '../../assets/images/Svg';
 
 const Navbar = ({reference}) => {
 
@@ -22,6 +22,10 @@ const Navbar = ({reference}) => {
             <button className={styles._contactBtn} onClick={() => scrolling(reference)} >Contact</button>
             <button className={styles._signUpBtn}>Sign Up</button>
             <button className={styles._registerBtn}>Register</button>
+        </div>
+
+        <div className={styles._toggleParent}>
+          <Toggle />
         </div>
       </div>
     </div>
