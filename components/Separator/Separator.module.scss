@@ -36,3 +36,20 @@
   font-family: $muli;
   color: $white;
 }
+
+@include responsive(medium) {
+  ._featuredCard {
+    width: 100%;
+    margin: 1.5rem 0px 1.5rem 0px;
+  }
+
+  ._iconParent {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  ._title {
+    text-align: center;
+    font-size: 2rem;
+  }
+}

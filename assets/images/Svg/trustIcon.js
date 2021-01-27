@@ -2,9 +2,9 @@ const TrustIcon = () => (
 <svg  width="100%" height="100%" viewBox="0 0 129.437 152.615">
   <defs>
     <linearGradient id="trust-icon" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f47d61"/>
-      <stop offset="0.001" stop-color="#f47d61"/>
-      <stop offset="1" stop-color="#fbb37b"/>
+      <stop offset="0" stopColor="#f47d61"/>
+      <stop offset="0.001" stopColor="#f47d61"/>
+      <stop offset="1" stopColor="#fbb37b"/>
     </linearGradient>
   </defs>
   <g id="Grupo_16" data-name="Grupo 16" transform="translate(0 -0.271)">

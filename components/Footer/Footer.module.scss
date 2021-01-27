@@ -62,3 +62,51 @@
   cursor: pointer;
 }
 
+@include responsive(medium) {
+
+  ._principal {
+    background-color: $black;
+  }
+  ._items {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+ ._sectionOne, ._sectionThree{
+   width: 100%;
+   margin: 0rem 0px 1rem 0px;
+
+   & span {
+     color: $white;
+   }
+
+   & h3 {
+    color: $white;
+  }
+ }
+
+ ._sectionThree {
+  padding-left: 0px;
+  margin-top: 1rem;
+ }
+
+ ._socialMedia {
+  justify-content: flex-start;
+  margin-top: 1.2rem;
+ 
+ }
+
+ ._icon {
+   width: 1.3rem;
+   height: 1.3rem;
+   margin-block-start: 0em;
+   margin-block-end: 0em;
+   margin-left: 0px;
+   margin-right: 1.5rem;
+
+   & svg path {
+     fill: $white;
+   }
+ }  
+
+}

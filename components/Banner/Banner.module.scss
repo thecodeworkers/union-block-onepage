@@ -81,3 +81,51 @@
 ._separation {
   margin-bottom: 3rem;
 }
+
+@include responsive(medium) {
+  ._main {
+    height: auto;
+    padding-top: 2rem;
+  }
+
+  ._content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  } 
+
+  ._leftSide {
+    width: 90%;
+    margin: auto;
+  }
+  ._rightSide {
+    width: 100%;
+  }
+
+  ._newsletterParent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ._emailInput {
+    width: 100%;
+    padding: 0.8rem 1.3rem 0.8rem 1.3rem; 
+  }
+
+  ._emailBtn {
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    padding: 0.8rem 1.3rem 0.8rem 1.3rem; 
+  }
+
+  ._leftText {
+    font-size: 2.2rem;
+  }
+
+  ._imageParent {
+    width: 100%;
+    margin: auto;
+  }
+}

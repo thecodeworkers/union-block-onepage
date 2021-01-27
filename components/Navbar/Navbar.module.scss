@@ -70,17 +70,65 @@
 }
 
 ._toggleParent {
-  width: 1.6rem;
-  height: 1.6rem;
+  width: 1.4rem;
+  height: 1.4rem;
   display: none;
+}
+
+@mixin menuCommon() {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: $black;
+  height: 100%;
+  width: 15rem;
+  top: 0px;
+  align-items: center;
 }
 
 @include responsive(medium) {
   ._toggleParent {
     display: block;
+    cursor: pointer;
   }
 
   ._buttonsParent {
-    display: none;
+    transform: translateX(-100%);
+    left: 0px;
+    transition: 0.6s;
+    @include menuCommon()
+  }
+
+  ._buttonsParentShow {
+    transform: translateX(0%);
+    display: flex;
+    z-index: 999;
+    transition:all 0.6s;
+    z-index: 999;
+    left: 0px;
+    @include menuCommon;
+  }
+
+  ._contactBtn {
+    margin-top: 3rem;
+    width: 80%;
+  }
+
+   ._signUpBtn, ._registerBtn {
+   margin-top: 1rem;
+   width: 80%;
+  }
+
+  ._logo {
+    width: 9rem;
+    height: 2rem;
+  } 
+
+  ._newStyle {
+    transform: translateX(-100%);
+    left: 0px;
+    @include menuCommon;
+    // background-color: red;
   }
 }
+

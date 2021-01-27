@@ -2,14 +2,14 @@ const TechnologyIcon = () => (
   <svg width="100%" height="100%" viewBox="0 0 181.841 149.789">
     <defs>
       <linearGradient id="technology-icon" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-        <stop offset="0" stop-color="#1d2140" />
-        <stop offset="0.001" stop-color="#1d2140" />
-        <stop offset="1" stop-color="#1172ba" />
+        <stop offset="0" stopColor="#1d2140" />
+        <stop offset="0.001" stopColor="#1d2140" />
+        <stop offset="1" stopColor="#1172ba" />
       </linearGradient>
       <linearGradient id="technology-icon-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-        <stop offset="0" stop-color="#1172ba" />
-        <stop offset="0.715" stop-color="#1d2140" />
-        <stop offset="1" stop-color="#1172ba" />
+        <stop offset="0" stopColor="#1172ba" />
+        <stop offset="0.715" stopColor="#1d2140" />
+        <stop offset="1" stopColor="#1172ba" />
       </linearGradient>
     </defs>
     <g id="Grupo_15" data-name="Grupo 15" transform="translate(181.841) rotate(90)">
