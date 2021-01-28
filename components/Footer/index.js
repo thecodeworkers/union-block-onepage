@@ -8,19 +8,19 @@ const Footer = () => {
       <div className={styles._items}>
         <div className={styles._sectionOne}>
           <h3>CONTACT</h3>
-          <span> hello@unionblock.io</span><br />
-          <span> +44 345 678 903 </span>
+          <span> dev@unionblock.io</span><br />
+          <span> +1 857 200 9823 </span>
         </div>
 
         <div className={styles._sectionOne}>
           <h3>LOCATION</h3>
           <span> 8 The Green Ste A, Dover, DE 1990 </span><br />
-          <span> UNIONBLOCK LLC </span>
+          <span> Union Block LLC </span>
         </div>
 
         <div className={styles._sectionThree}>
-          <span> We are always looking for talent </span><br />
-          <span> jobs@unionblock.io </span>
+          <span> </span><br />
+          <span> </span>
         </div>
 
         <div className={styles._socialMedia}>
@@ -36,11 +36,9 @@ const Footer = () => {
             <div className={styles._icon}>
               <Twitter />
             </div>
-
           </div>
         </div>
-
-
+        
       </div>
     </footer>
   )
