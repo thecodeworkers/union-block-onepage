@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: unionblock-web
+  namespace: unionblock
+  labels:
+    app: unionblock-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: unionblock-web
+  template:
+    metadata:
+      labels:
+        app: unionblock-web
+    spec:
+      imagePullSecrets:
+      - name: regcred
+      containers:
+        - name: unionblock-web
+          imagePullPolicy: Always
+          image: registry.thecodeworkers.com/unionblock-web:latest
+          ports:
+            - name: http-port
+              containerPort: 3000
